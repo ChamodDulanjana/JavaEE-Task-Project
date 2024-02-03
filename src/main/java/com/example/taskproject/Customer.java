@@ -18,6 +18,8 @@ public class Customer extends HttpServlet {
 
 
             System.out.println("Name : " + name);
+            System.out.println("Age : " + age);
+
         }catch (Exception e){
             e.printStackTrace();
         }
